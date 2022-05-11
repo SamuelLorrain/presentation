@@ -1,0 +1,41 @@
+class: center, middle
+
+# Supply chain attack
+
+---
+
+.center[![img](./supply-chain-1.png)]
+
+---
+
+    - en quoi c'est important en informatique
+
+---
+    - un email avec un malware attaché peut être une supply chain attack
+---
+    - npm
+---
+    - économie du logiciel libre
+---
+    - Ken Thompson Hack
+---
+    - Cpu hack
+---
+
+    - guerre en ukraine
+---
+    - Brandon Nozaki Miller
+---
+    - peacenotwar
+---
+    - node-ipc
+---
+    - vuejs
+---
+    - reflexions
+---
+
+- injection
+     - qu'est-ce qu'une injection
+     - demonstration
+     - log4j

@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 5rem;
+}
+
+h2 {
+    font-size: 3rem;
+}
+
+li {
+    font-size: 2.5rem;
+}
+
+section {
+    display: flex;
+    justify-content:center;
+    height: 100vh;
+}
+
+.center {
+    align-items:center;
+}
+
+.list {
+    flex-direction:column;
+}
+
+img {
+    width: 100%;
+    display:block;
+}
+
+img.preserve-width {
+    width:auto;
+}
+
+img.preserve-height {
+    height:auto;
+}
+
+.grid-1 {
+    display:grid;
+    grid-template-columns:repeat(2, 300px);
+    grid-template-rows:repeat(2, 300px);
+}
