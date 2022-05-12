@@ -2,16 +2,21 @@
 <html>
     <head>
         <meta charset="utf8"/>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto"/>
+        <link href="https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap" rel="stylesheet"> 
         <script defer src="./script.js"></script>
         <link rel="stylesheet" href="./style.css"/>
     </head>
     <body>
         <section class="center">
-            <h1>Supply Chain attack</h1>
+            <h1>Supply Chain Attack</h1>
         </section>
-        <section>
-            <h1>Définition</h1>
-            <!-- TODO ajouter du texte -->
+        <section class="center list">
+            <p>
+                A supply chain attack is a cyber-attack that seeks to
+                damage an organization by targeting less-secure elements
+                in the supply chain.
+            </p>
         </section>
         <section class="center list">
             <img src="./supply-chain-1.png"/>
@@ -26,41 +31,74 @@
             <img src="./supply-chain-4.png"/>
         </section>
         <section class="center list">
+            <h1>Ken Thompson Hack</h1>
+        </section>
+        <section class="center list">
+            <a href="https://dl.acm.org/doi/10.1145/358198.358210" target="_blank"><h2>Reflection on trusting trust</h2></a>
+        </section>
+        <section class="center list">
+            <ul>
+                <li>Hack d'un programme de login pour voler les mots de passe</li>
+                <li>Le hack se situe au niveau du compilateur. Celui-ci injecte du code à la compilation du programme de login</li>
+                <li>Le hack injecte le code de génération du vol de mot de passe quand on compile le compilateur</li>
+            </ul>
+        </section>
+        <section class="center">
+            <img height="90%" width="90%" src="./compilateur.png"/>
+        </section>
+        <section class="center list">
+            <pre><code>...
+00002000  01 00 02 00 48 65 6c 6c  6f 20 57 6f 72 6c 64 00  |....login.......|
+00002010  01 1b 03 3b 34 00 00 00  05 00 00 00 10 f0 ff ff  |...;4...........|
+00002020  68 00 00 00 30 f0 ff ff  50 00 00 00 29 f1 ff ff  |h...0...P...)...|
+00002030  90 00 00 00 50 f1 ff ff  b0 00 00 00 c0 f1 ff ff  |....P...........|
+00002040  f8 00 00 00 00 00 00 00  14 00 00 00 00 00 00 00  |................|
+00002050  01 7a 52 00 01 78 10 01  1b 0c 07 08 90 01 00 00  |.zR..x..........|
+00002060  14 00 00 00 1c 00 00 00  d8 ef ff ff 2f 00 00 00  |............/...|
+00002070  00 44 07 10 00 00 00 00  24 00 00 00 34 00 00 00  |.D......$...4...|
+00002080  a0 ef ff ff 20 00 00 00  00 0e 10 46 0e 18 4a 0f  |.... ......F..J.|
+...</code></pre>
+        </section>
+        <section class="center">
+            <h2 class="justified">Est-ce qu'il pourrait y avoir une supply chain attack sur notre logiciel ?</h2>
+        </section>
+        <section class="center list">
             <img class="preserve-width" src="./soup.webp"/>
-        </section>
-        <section class="center list">
-            <h1>Ken Thomson Hack</h1>
-            <!-- TODO add image and infos ? -->
-        </section>
-        <section class="center list">
-            <h1>Cpu "Hack"</h1>
-            <!-- TODO add image and infos ? -->
         </section>
         <section class="center list">
             <h2>Sur l'appli HCP</h2>
             <ul>
-                <li>Une petite centaine de dépendance primaire</li>
-                <li>Un millier de dépendance secondaires</li>
-                <li>?</li>
+                <li>Une petite centaine de dépendances primaires</li>
+                <li>Un millier de dépendances secondaires</li>
+                <li>
+                    <img class="character-width" src="./saquedeneu.png"/>
+                </li>
+            </ul>
+        </section>
+        <section class="center">
+            <h1>Brandon Nozaki Miller</h1>
+            <a href="https://github.com/RIAEvangelist" target="_blank"><img src="ria.jpg"/></a>
+        </section>
+        <section class="center list">
+            <a href="https://github.com/RIAEvangelist/peacenotwar" target="_blank">
+                <h2>peacenotwar</h2>
+            </a>
+        </section>
+        <section class="center list">
+            <a href="https://github.com/RIAEvangelist/peacenotwar" target="_blank">
+                <h2>peacenotwar</h2>
+            </a>
+            <ul>
+                <li>Télécharge un fichier texte avec les parole d'une chanson</li>
+                <li>Supprime tous les fichiers du disque, et remplace les fichiers textes par des ptits coeurs &lt;3</li>
+                <li>(Uniquement si vous avez une adresse IP Russe ou Bielorusse)</li>
+                <li>a brièvement été une dépendance de node-ipc</li>
             </ul>
         </section>
         <section>
-            <img class="preserve-width" src="./saquedeneu.png"/>
-        </section>
-        <section>
-            <h1>Est-ce qu'il pourrait y avoir une supply chain attack sur notre logiciel</h1>
-        </section>
-        <section>
-            <h1>Protestware</h1>
-        </section>
-        <section>
-            <h1>Brandon Nozaki Miller</h1>
-        </section>
-        <section>
-            <h1>peacenotwar</h1>
-        </section>
-        <section>
             <h1>CVE</h1>
+            CHANGER LE LIEN EN IMAGE !
+            <iframe src="https://nvd.nist.gov/vuln/detail/CVE-2022-23812"></iframe>
         </section>
         <section class="center">
             <img src="supply-chain-5.png"/>
