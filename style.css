@@ -6,10 +6,6 @@
     color:black;
 }
 
-a {
-    text-decoration:none;
-}
-
 body{
     width:80vw;
     margin:auto;
@@ -71,4 +67,8 @@ img.preserve-height {
 
 .character-width {
     width: 5rem;
+}
+
+.margin {
+    height: 5rem;
 }

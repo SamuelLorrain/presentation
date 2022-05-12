@@ -1,18 +1,47 @@
--
+- Supply chain attack
+- Définition
+- la définition est un peu redondant
+- qu'est-ce que c'est qu'une "chaine d'approvisionnement",
+- c'est une notion un peu générale
 
+- monter l'exemple
 
-- très loin des préoccupations de Telsa, les voitures autonomes etc.
-- comment voler les mots de passe des gens
-- attaque indétectable
+- Ken Thompson, inventeur du C
+- "Reflecting on trust" : un article de 1984
+
 - l'idée fondamentale de cette article, c'est que
 l'informatique créé des couches d'abstractions. Que
 si on les dépile, alors il n'y a plus d'intéret de faire
 de l'informatique, mais qu'on est obligé d'en avoir une
 confiance aveugle
-
+- très loin des préoccupations de Telsa, les voitures autonomes etc.
+- comment voler les mots de passe des gens
+- attaque indétectable
 
 - peut-il y avoir un soucis de supply chain attack ?
 - poser une question avant de passer à la suite !
+
+
+- petit détour, je vais vous présenter cette personne:
+    (cliquer sur le github et tout montrer une peu les trucs)
+    (notamment node-ipc)
+- passer à la slide suivante
+- parler de la guerre en Ukraine
+- peacenotwar, expliquer brièvement le fonctionnement
+
+
+- alors vous allez me dire, ok le mec a fait du code un peu dangereux
+et tout, mais c'est pas grave au final.
+- la petite bricole en plus, c'est que peacenotwar a été une dépendance
+de node-ipc qui est un package très utilisé.
+- retourner sur node-ipc et montrer qu'il y a beaucoup de téléchargements
+
+- slice CVE
+- imaginez que la faille arrive sur un serveur, bah le serveur est
+  complètement foutu (bon y a évidemment des garde fou etc.),
+
+- slide supply-chain-5
+- rassurer les gens y a pas de soucis lol
 
 - assez grave on a une personne respectée dans
   la communauté qui se met à faire des trucs dangereux
